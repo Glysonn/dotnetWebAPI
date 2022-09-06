@@ -7,8 +7,14 @@ namespace src.Controllers;
 [ApiController]
 /* Creating a new Route. The "[controller]" will be replaced by
 the controller class name (PersonController)  */
-[Route("[controller")]
+[Route("[controller]")]
 public class PersonController
 {
 
+    //  Using the Get HTTP method
+    [HttpGet]
+    public string hello()
+    {
+        return "Hello!";
+    }
 }
