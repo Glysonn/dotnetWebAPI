@@ -19,6 +19,9 @@ public class PersonController : ControllerBase
     public Person GetPessoa()
     {
         Person pessoa = new Person("Glyson", 17, 10, true);
+        Contract newContract = new Contract(15.5, "ABC321");
+
+        pessoa.Contracts.Add(newContract);
         //  Returning the object is only possible 'cause the method type is Person (model class)
         return pessoa;
     }
