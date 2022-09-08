@@ -21,6 +21,7 @@ public class Person
         this.Contracts = new List<Contract>();
     }
     public string Name { get; set;}
+    public int Id { get; set;}
     public int Age { get; set; }
     public double Grade { get; set; }
     public bool IsActive { get; set; }
