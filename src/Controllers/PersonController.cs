@@ -38,4 +38,10 @@ public class PersonController : ControllerBase
         return $"ID {id} from Person {pessoa.Name} status: updated.";
     }
 
+    [HttpDelete ("{id}")]
+    public string DeletePessoa([FromRoute]int id)
+    {
+        return $"The person which ID was {id} was deleted.";
+    }
+
 }
