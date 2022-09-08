@@ -31,5 +31,11 @@ public class PersonController : ControllerBase
     {
         return pessoa;
     }
-    
+
+    [HttpPut("{id}")]
+    public string UpdatePessoa([FromRoute]int id, [FromBody]Person pessoa)
+    {
+        return $"ID {id} from Person {pessoa.Name} status: updated.";
+    }
+
 }
