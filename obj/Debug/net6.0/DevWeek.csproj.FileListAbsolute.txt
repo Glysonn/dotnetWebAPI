@@ -25,3 +25,17 @@
 /home/glyson/Desktop/DevWeek/obj/Debug/net6.0/ref/DevWeek.dll
 /home/glyson/Desktop/DevWeek/obj/Debug/net6.0/DevWeek.pdb
 /home/glyson/Desktop/DevWeek/obj/Debug/net6.0/DevWeek.genruntimeconfig.cache
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Humanizer.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/home/glyson/Desktop/DevWeek/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
