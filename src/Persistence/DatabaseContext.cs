@@ -22,9 +22,21 @@ public class DatabaseContext : DbContext
     protected override void OnModelCreating(ModelBuilder builder)
     {
         //  Contract model now is a Table
-        builder.Entity<Contract> (e =>{});
+        builder.Entity<Contract> (tabela =>{
+            //  HasKey() means "tabela" has a primary key (it's Id).
+            //  "e" is just a representation of my model class (Contract). It could be named anyway.
+            tabela.HasKey(e => e.Id);
+        });
 
         //  Person model now is a Table
-        builder.Entity<Person> (e=>{});
+        builder.Entity<Person> (tabela=>{
+            tabela.HasKey(e=>e.Id);
+
+            //  relating table Person to Contract
+            tabela
+            .HasMany(e => e.Contracts)  //  (one person can have many contracts)
+            .WithOne()  //  for each contract
+            .HasForeignKey(c => c.PersonID);    //  using the foreign key which relate them
+        });
     }
 }
