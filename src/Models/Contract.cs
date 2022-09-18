@@ -2,7 +2,6 @@ namespace src.Models;
 
 public class Contract
 {
-    //  Constructor
     public Contract()
     {
         this.CreateData = DateTime.Now;

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+
 namespace src.Models;
 
 public class Person
@@ -11,7 +12,6 @@ public class Person
         this.Contracts = new List<Contract>();
     }
 
-    //  Overloading the Person method
     public Person (string Name, int Age, double Grade, bool IsActive)
     {
         this.Name = Name;
